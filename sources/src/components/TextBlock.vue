@@ -1,7 +1,7 @@
 <template>
   <div>
     <div v-if="data && !members.length" class="row justify-content-between no-gutters">
-      <div class="col-md-5 col-lg-4 order-1 textblock-left p-3">
+      <div class="col-md-5 col-lg-3 order-1 textblock-left p-3">
         <h1 v-html="data.header"/>
       </div>
       <div v-if="data.header != 'Examples'" class="col order-2 textblock-right ml-1 p-3">

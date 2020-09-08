@@ -12,7 +12,7 @@
           v-bind:index="index"
           v-bind:key="index"
           class="pl-md-5 px-lg-2 p-sm-3 py-2 p-xs-1"/>
-        <app-footer class="mt-0 py-5"/>
+	  <!-- <app-footer class="mt-0 py-5"/> -->
       </div>
     </div>
 </template>
@@ -20,8 +20,6 @@
 import PageBlock from "@/components/PageBlock.vue";
 import marked from 'marked';
 
-/* const introText = `
-	      <p> <b>Robot Framework</b> is a generic open source automation framework. It can be used for test automation and robotic process automation (RPA). <p> Robot Framework is actively supported, with many industry-leading companies using it in their software development. </p> Robot Framework is open and extensible and can be integrated with virtually any other tool to create powerful and flexible automation solutions. Being open source also means that Robot Framework is free to use without licensing costs. </p> <p> Robot Framework has easy syntax, utilizing human-readable keywords. Its capabilities can be extended by libraries implemented with Python or Java. The framework has a rich ecosystem around it, consisting of <a href="#libraries">libraries</a> and <a href="#tools">tools</a> that are developed as separate projects. </p> <p> Robot Framework project is hosted on <a href="https://github.com/robotframework/robotframework" target="_blank">GitHub</a> where you can find further documentation, source code, and issue tracker. Downloads are hosted at <a href="https://pypi.python.org/pypi/robotframework" target="_blank">PyPI</a>. <p> Robot Framework is operating system and application independent. The core framework is implemented using <a href="http://python.org" target="_blank">Python</a> and also runs on <a href="http://jython.org" target="_blank">Jython</a> (JVM) and <a href="http://ironpython.net" target="_blank">IronPython</a> (.NET). </p> <p> Robot Framework itself is open source software released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License 2.0</a>, and most of the libraries and tools in the ecosystem are also open source. The framework was initially developed at <a href="http://networks.nokia.com" target="_blank">Nokia Networks</a> and was open sourced in 2008.</p>'` */
 const introText = marked(`Robot Framework deserves a browser automation solution that's designed for the 2020s. \n\n Browser library powered by [Playwright](https://playwright.dev/) provides.\n\n 🚀 Speed, ✅ reliability and 🔬 visibility. \n\n
     \n- More conscise assertions. \n- Precise and fast browser window and tab control. \n- Chainable selector strategies. \n- Good shadow DOM support.\n- Easy mobile device descriptors. \n- Sending HTTP requests. \n\n \n\n See [keyword documentation](https://marketsquare.github.io/robotframework-browser/Browser.html). \n\n Get it now with \`pip install robotframework-browser && rfbrowser init\` \n\n Join us for discussion and support at the [robotframework slack](https://robotframework-slack-invite.herokuapp.com) and [our github issues](https://github.com/MarketSquare/robotframework-browser/issues). \n\n Use. Benefit. Contribute. Lets make the best Browser library."`)
 
@@ -47,6 +45,7 @@ export default {
             }
           }
         },
+	/*
         {
           title: "Architecture",
           text_block: false,
@@ -84,6 +83,8 @@ export default {
             //Different component, TODO: implement in reproducible component
           }
         },
+	*/
+	/*
         {
           title: "Documentation",
           text_block: true,
@@ -259,7 +260,7 @@ export default {
               }
             ]
           }
-        },
+        }, */
         {
           title: "Community",
           text_block: true,
@@ -286,6 +287,7 @@ export default {
                     href: 'http://robotframework.slack.com',
                     text: 'Community team chat. Get an <a href="https://rf-invite.herokuapp.com/" target="_blank">invite to the workspace.</a>'
                   },
+		  /*
                   {
                     title: "@robotframework",
                     href: "http://twitter.com/robotframework",
@@ -298,6 +300,7 @@ export default {
                     text:
                       "Questions in Stack Overflow tagged with Robot Framework."
                   },
+		  */
                 ]
               }
             ]
