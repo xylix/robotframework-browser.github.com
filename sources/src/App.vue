@@ -21,7 +21,7 @@ import PageBlock from "@/components/PageBlock.vue";
 import marked from 'marked';
 
 const introText = marked(`Robot Framework deserves a browser automation solution that's designed for the 2020s. \n\n Browser library powered by [Playwright](https://playwright.dev/) provides.\n\n 🚀 Speed, ✅ reliability and 🔬 visibility. \n\n
-    \n- More conscise assertions. \n- Precise and fast browser window and tab control. \n- Chainable selector strategies. \n- Good shadow DOM support.\n- Easy mobile device descriptors. \n- Sending HTTP requests. \n\n \n\n See [keyword documentation](https://marketsquare.github.io/robotframework-browser/Browser.html). \n\n Get it now with \`pip install robotframework-browser && rfbrowser init\` \n\n Join us for discussion and support at the [robotframework slack](https://robotframework-slack-invite.herokuapp.com) and [our github issues](https://github.com/MarketSquare/robotframework-browser/issues). \n\n Use. Benefit. Contribute. Lets make the best Browser library."`)
+    \n- Conscise assertions. \n- Precise and fast browser window and tab control. \n- Chainable selector strategies. \n- Good shadow DOM support.\n- Easy mobile device descriptors. \n- Sending HTTP requests. \n\n \n\n See [keyword documentation](https://marketsquare.github.io/robotframework-browser/Browser.html). \n\n Get it now with \`pip install robotframework-browser && rfbrowser init\` \n\n Join us for discussion and support at the [robotframework slack](https://robotframework-slack-invite.herokuapp.com) and [our github issues](https://github.com/MarketSquare/robotframework-browser/issues). \n\n Use. Benefit. Contribute. Lets make the best Browser library.`)
 
 export default {
   components: {
@@ -278,14 +278,14 @@ export default {
                   {
                     img: require("@/assets/img/ROBOTFW_Mark_Black_LOW.png"),
                     title: 'Forum',
-                    href: 'http://forum.robotframework.org',
-                    text: 'Robot Framework community forum. '
+                    href: 'https://forum.robotframework.org/c/libraries/browser',
+                    text: "Browser library's section on the Robot Framework forum."
                   },
                   {
                     img: require("@/assets/img/slack.png"),
                     title: 'Slack',
                     href: 'http://robotframework.slack.com',
-                    text: 'Community team chat. Get an <a href="https://rf-invite.herokuapp.com/" target="_blank">invite to the workspace.</a>'
+		      text: 'Community team chat. Get an <a href="https://rf-invite.herokuapp.com/" target="_blank">invite to the workspace.</a>. Then join <a href="https://robotframework.slack.com/#browser">our channel #browser</a>.'
                   },
 		  /*
                   {

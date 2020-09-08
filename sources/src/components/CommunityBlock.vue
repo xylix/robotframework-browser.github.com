@@ -15,6 +15,7 @@
               </div>
             </div>
         </b-tabs>
+	<!--
         <b-tabs pills class="card nav-fill col-lg-12 m-3">
             <div id="{tab.title}-standard" class="card-body row">
               <div v-for="(item,index) in withoutImg" :key="index" class="link col-md-4 row">
@@ -25,6 +26,7 @@
               </div>
             </div>
         </b-tabs>
+	-->
   </div>
 </template>
 

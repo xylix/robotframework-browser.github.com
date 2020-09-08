@@ -1,6 +1,6 @@
 <template>
 <section>
-<b-nav  v-b-scrollspy:scroller.50 tag="nav" toggleable="md" vertical id="navigation" class="col-sm-3 col-md-1 d-none d-md-block sidebar">
+<b-nav  v-b-scrollspy:scroller.50 tag="nav" toggleable="md" vertical id="navigation" class="col-sm-3 col-md-2 d-none d-md-block sidebar">
   <b-navbar-brand style="text-transform:uppercase;">
         <b-img :src="require('@/assets/img/ROBOTFW_Mark_White_LOW_cropped.png')" class="img-fluid" alt="Robot Frameworkg logo"/>
   </b-navbar-brand>
